@@ -14,7 +14,7 @@ var desconto;
 var preco_final = (preco-desconto);
 
 //Declaração de CONSTANTE 
-const TX_IR
+const TX_IR = 0.15; // taxa de 15% IR
 
 var salario;
 var salario_liq = 0;
