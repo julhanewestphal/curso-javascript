@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Teste para Javascript</title>
+    
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    
+    <title>Contador</title>
 </head>
 <body>
-    
+    <div class="container">
+    <div class="contador">
+        <h1 class="contador-titulo">Contador</h1>
+        <p class="contador-descricao">Clique para alterar o valor: </p>
+        <div id="counter">
+            <button role="button" class="contador-botoes" name="subtrair" onclick="decrement()">-</button>
+            <span id="currentNumber" class="contador-valor">0</span>
+            <button role="button" class="contador-botoes" name="adicionar" onclick="increment()">+</button>
+        </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js">    </script>
 </body>
 </html>
